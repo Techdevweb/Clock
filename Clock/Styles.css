@@ -1,0 +1,86 @@
+.row {
+  height: 140px;
+  margin-top: 180px;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: #aaf0d1;
+}
+
+.tm {
+  -webkit-box-reflect: below 80px
+    linear-gradient(transparent, rgba(0, 0, 0, 0.24));
+  height: 105px;
+}
+
+.card {
+  height: 100px;
+  background-color: black;
+}
+
+@font-face {
+  font-family: "digital-clock-font";
+  src: url("digital-7.ttf");
+}
+
+h3 {
+  color: #66ff66;
+  font-family: "digital-clock-font";
+  text-align: center;
+  font-size: 7rem;
+}
+
+h4 {
+  color: #66ff66;
+  font-family: "digital-clock-font";
+  text-align: center;
+  font-size: 5rem;
+}
+
+.days {
+  height: 1px;
+}
+
+@media (max-width: 1028px) {
+  .tm {
+    -webkit-box-reflect: below 10px
+      linear-gradient(transparent, rgba(0, 0, 0, 0.342));
+    height: 70px;
+  }
+  h3 {
+    color: #66ff66;
+    font-family: "digital-clock-font";
+    text-align: center;
+    font-size: 30px;
+  }
+  h4 {
+    color: #66ff66;
+    font-family: "digital-clock-font";
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .tm {
+    -webkit-box-reflect: below 10px
+      linear-gradient(transparent, rgba(0, 0, 0, 0.342));
+    height: 20px;
+  }
+  h3 {
+    color: #66ff66;
+    font-family: "digital-clock-font";
+    text-align: center;
+    font-size: 18px;
+  }
+  h4 {
+    color: #66ff66;
+    font-family: "digital-clock-font";
+    text-align: center;
+    font-size: 18px;
+  }
+}
