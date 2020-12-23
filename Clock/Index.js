@@ -5,7 +5,7 @@ function ShowTime(){
     var s=date.getSeconds()
     var session='AM'
     var w=date.getDay()
-    var m=date.getMonth()
+    var mo=date.getMonth()
     var weekNames=['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri','Sat']
     var monthNames=['Jan', 'Feb', 'Mar', 'Apr', 'May','Jun','Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     var tm=date.getFullYear()
@@ -28,7 +28,7 @@ function ShowTime(){
     $('#seconds').text(s)
     $('#session').text(session)
     $('#day').text('Day: '+weekNames[w])
-    $('#month').text('Month: '+monthNames[m])
+    $('#month').text('Month: '+monthNames[mo])
     $('#time-zone').text(tm)
     setTimeout(ShowTime,1000)
 }
